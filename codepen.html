@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hunter Newton - CodePen</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="lib/css/style.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<body>
+<script>
+    $(window).scroll(function(){
+    $(".top").css("opacity", 1 - $(window).scrollTop() / 100);
+  });
+</script>
+    <div class="top">
+        <div class="name"><p>Hunter Newton R2H Midterm</p></div>
+
+        <!-- Nav Bar Start -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li id="selected"><a href="codepen.html">Codepen</a></li>
+                <li class="dropdown"><a href="#" class="maindropdown">Social Media</a>
+                <div class="down">
+                <a href="https://www.instagram.com/roadtohire/" target="_blank">Instagram</a>
+                <a href="https://twitter.com/roadtohire" target="_blank">Twitter</a>
+                <a href="https://www.facebook.com/roadtohire/?fref=ts" target="_blank">Facebook</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Nav Bar End -->
+    </div>
+
+    <!-- Header Start -->
+    <header>
+        <h1 class="main-header">CodePen Projects</h1>
+        <div class="codepen-banner"></div> <!-- Road to Hire background image -->
+    </header>
+    <!-- Header End -->
+
+    <!-- CodePen Start -->
+    <section class="codepen-container">
+        <figure class="codepen">
+            <a href="https://codepen.io/Hun7er/pen/dzebKm" target="_blank"><img class="question" src="lib/img/question1.png" alt="Question 1"></a>
+        </figure>
+
+        <figure class="codepen">
+            <a href="https://codepen.io/Hun7er/pen/LjmYvK" target="_blank"><img class="question" src="lib/img/question2.png" alt="Question 2"></a>
+        </figure>
+
+        <figure class="codepen">
+            <a href="https://codepen.io/Hun7er/pen/EvLaYr" target="_blank"><img class="question" src="lib/img/question3.png" alt="Question 3"></a>
+        </figure>  
+    </section>
+    <!-- CodePen End -->
+
+
+<footer class="footer">
+    <!-- Nav Bar Start -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li id="selected"><a href="codepen.html">Codepen</a></li>
+            <li><a href="https://www.instagram.com/roadtohire/" target="_blank">Instagram</a>
+            <li><a href="https://twitter.com/roadtohire" target="_blank">Twitter</a></li>
+            <li><a href="https://www.facebook.com/roadtohire/?fref=ts" target="_blank">Facebook</a></li>
+            </div>
+            </li>
+        </ul>
+    </nav>
+    <!-- Nav Bar End -->
+</footer>
+</body>
+</html>

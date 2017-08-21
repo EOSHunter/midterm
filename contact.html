@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hunter Newton - Contact</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="lib/css/style.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<body>
+<script>
+    $(window).scroll(function(){
+    $(".top").css("opacity", 1 - $(window).scrollTop() / 100);
+  });
+</script>
+
+    <div class="top">
+        <div class="name"><p>Hunter Newton R2H Midterm</p></div>
+
+        <!-- Nav Bar Start -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li id="selected"><a href="contact.html">Contact</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="codepen.html">Codepen</a></li>
+                <li class="dropdown"><a href="#" class="maindropdown">Social Media</a>
+                <div class="down">
+                <a href="https://www.instagram.com/roadtohire/" target="_blank">Instagram</a>
+                <a href="https://twitter.com/roadtohire" target="_blank">Twitter</a>
+                <a href="https://www.facebook.com/roadtohire/?fref=ts" target="_blank">Facebook</a>
+                </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- Nav Bar End -->
+    </div>
+
+    <!-- Header Start -->
+    <header>
+        <h1 class="main-header">Contact</h1>
+        <div class="contact-banner"></div> <!-- Road to Hire background image -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Form Start -->
+    <section>
+        <form id="form">
+            <div class="form-question">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" value="" placeholder="First Name" required=""/>
+            </div>
+
+            <div class="form-question">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" value="" placeholder="Last Name" required="" />
+            </div>
+
+            <div class="form-question">
+                <label for="email">Email: <input type="email" id="email" name="email" placeholder="Email" required=""/></label>
+            </div>
+        
+            <div class="form-question">
+                <p>What is your favorite color of the rainbow?</p>
+                <label for="color"><input type="checkbox" name="color" value="red" id="red" />Red</label>
+                <label for="color"><input type="checkbox" name="color" value="orange" id="orange" />Orange</label>
+                <label for="color"><input type="checkbox" name="color" value="yellow" id="yellow" />Yellow</label>
+                <label for="color"><input type="checkbox" name="color" value="green" id="green" />Green</label>
+                <label for="color"><input type="checkbox" name="color" value="blue" id="blue" />Blue</label>
+                <label for="color"><input type="checkbox" name="color" value="indigo" id="indigo" />Indigo</label>
+                <label for="color"><input type="checkbox" name="color" value="violet" id="violet" />Violet</label>
+            </div>
+
+            <div class="form-question">
+                <label class="questions" for="questions">Questions/Concerns</label>
+                <textarea placeholder="If you have questions or concerns, please comment them here." cols="20" rows="6" name="questions" id="questions"></textarea>
+                </div>
+
+            <div class="submit">
+                <input type="submit" name="submit" value="Submit" />
+            </div>
+        </form>
+
+        <!-- Validate Form Start -->
+        <script>
+            $("#form").validate();
+        </script>  
+        <!-- Validate Form End -->
+
+    </section>
+    <!-- Form End -->
+
+<footer>
+    <!-- Nav Bar Start -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li id="selected"><a href="contact.html">Contact</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="codepen.html">Codepen</a></li>
+            <li><a href="https://www.instagram.com/roadtohire/" target="_blank">Instagram</a>
+            <li><a href="https://twitter.com/roadtohire" target="_blank">Twitter</a></li>
+            <li><a href="https://www.facebook.com/roadtohire/?fref=ts" target="_blank">Facebook</a></li>
+            </li>
+    </nav>
+    <!-- Nav Bar End -->
+</footer>
+</body>
+</html>
